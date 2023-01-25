@@ -1,0 +1,63 @@
+design file structure as per readme
+
+write unit tests - ongoing
+
+design employee class 
+    name
+    id
+    email
+    getName()
+    getId()
+    getEmail()
+    getRoll() -- returns employee
+
+design manager subclass 
+    officeNumber
+    getRoll() -- returns manager
+
+design engineer subclass    
+    gitHub -- username
+    getGitHub()
+    getRoll() -- returns engineer
+
+design intern subclass
+    school
+    getSchool()
+    getRoll() -- returns intern
+
+design boiler plate HTML 
+
+design boiler plate CSS
+
+inquirer 
+    manager
+        name
+        prompt for employee id
+        prompt for email address
+        prompt for office office number
+        prompt for: after we finish the manager
+            add an engineer 
+            add an intern 
+            or finish 
+
+    engineer
+        prompted to enter name 
+        prompted to enter ID 
+        prompted to enter email
+        prompted to enter github username
+        prompted back to menu for finishing the manager
+
+    intern 
+        prompted to enter name 
+        prompted to enter ID 
+        prompted to enter email
+        prompted to enter school
+        prompted back to menu for finishing the manager
+
+use fs to write the data onto my HTML 
+
+
+
+
+
+
