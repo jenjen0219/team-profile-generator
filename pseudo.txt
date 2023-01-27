@@ -27,7 +27,7 @@ design intern subclass
 
 design boiler plate HTML 
 
-design boiler plate CSS
+design boiler plate CSS - "for the love of god use bootstrap" 
 
 inquirer 
     manager
@@ -55,6 +55,14 @@ inquirer
         prompted back to menu for finishing the manager
 
 use fs to write the data onto my HTML 
+
+manager questions
+engineer questions 
+intern questions 
+'would you like to add another employee' - seperate function that needs to be called at the end of each employee type
+    will loop the user 
+
+once the user selects no to adding anotther user, this will initalize the html and css 
 
 
 
