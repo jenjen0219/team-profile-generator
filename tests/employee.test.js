@@ -3,11 +3,6 @@ const { describe } = require("yargs");
 const Employee = require("../lib/Employee");
 
 
-
-
-
-
-
 describe('Employee', ()=>{
     const name = 'Justin';
     const id = 345;
