@@ -12,20 +12,16 @@ class Prompt {
         this.teamArray = [];
     }
 
-    /**
-     * @returns the array of all Employee objects
-     */
-
     getTeamArray() {
         return this.teamArray;
     }
 
     // questions() is a method. It is used to display a series of prompts to the user in order to gather information about the team members. It uses the inquirer.prompt() method to display the prompts to the user and waits for the user to enter a response.
     questions() {
-        inquirer.prompt(
+        return inquirer.prompt(
             {
                 type: 'list',
-                name: 'employeeEntry',
+                name: 'employeeType',
                 message: "What type of employee do you want to add?",
                 choices: ['Manager', 'Engineer', 'Intern', 'Team Completed']
             })
