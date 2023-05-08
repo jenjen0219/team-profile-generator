@@ -143,7 +143,7 @@ class Prompt {
                                 if (githubInput) {
                                     return true;
                                 } else {
-                                    console.log("Please enter the correct engineer's github username!");
+                                    console.log("Please enter the correct engineer\'s github username!");
                                     return false;
                                 }
                             }
@@ -193,7 +193,7 @@ class Prompt {
                                 if (emailInput) {
                                     return true;
                                 } else {
-                                    console.log("Please enter the correct intern's email!");
+                                    console.log("Please enter the correct intern\'s email!");
                                     return false;
                                 }
                             }
